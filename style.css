@@ -17,3 +17,21 @@ Version: 2.193
   float: left;
   width: calc(100% - 100px);
 }
+
+.topnav {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-size: cover;
+  background-image: url("Screenshot_1.png");
+  height: 800px;
+}
+
+.topnav .header {
+  padding-top: 10px;
+  position: relative;
+  z-index: 10;
+}
+.topnav .header .right-menu {
+  float: right;
+  padding-right: 40px;
+}
