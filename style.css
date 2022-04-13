@@ -1,0 +1,19 @@
+/*
+Theme Name: Hande Elif Yazici
+Theme URI: https://www.handeblog.com
+Author: Hande
+Author URI: https://www.handeblog.com
+Description: Hande Blog
+Version: 2.193
+*/
+
+.post-list{
+  width: 100%;
+}
+.post-single{
+  border: 1px solid #ccc;
+  margin: 50px;
+  display: block;
+  float: left;
+  width: calc(100% - 100px);
+}
