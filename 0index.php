@@ -3,16 +3,6 @@
 // the query
 $wpb_all_query = new WP_Query(array('post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => -1)); ?>
 <?php if ($wpb_all_query->have_posts()) : ?>
-<div class="topnav">
-    <div class="right-menu">
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#articles">Articles</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</div>
 
     <div class="post-list">
 

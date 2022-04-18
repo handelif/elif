@@ -17,21 +17,294 @@ Version: 2.193
   float: left;
   width: calc(100% - 100px);
 }
+@charset "UTF-8";
+html {
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: "Oswald", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 .topnav {
   padding-left: 30px;
   padding-right: 30px;
   background-size: cover;
-  background-image: url("Screenshot_1.png");
+  background-image: url("banner.jpg");
   height: 800px;
 }
-
 .topnav .header {
   padding-top: 10px;
   position: relative;
   z-index: 10;
 }
+.topnav .header .logo {
+  float: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+.topnav .header .logo span {
+  color: #ffd369;
+}
 .topnav .header .right-menu {
   float: right;
   padding-right: 40px;
+}
+.topnav .header .right-menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.topnav .header .right-menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.topnav:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 800px;
+  width: 100%;
+  opacity: 0.85;
+  background: #f565c4;
+  background: linear-gradient(43deg, #f565c4 16%, #f780a9 43%, #fab56e 80%);
+}
+
+.banner {
+  font-family: "Roboto", sans-serif;
+  padding-top: 300px;
+  position: relative;
+}
+.banner h1 {
+  color: white;
+  font-weight: 700;
+  margin-top: 0;
+}
+.banner h4 {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.banner p {
+  color: white;
+  font-size: 15px;
+  position: center;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.banner a {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+}
+.banner i {
+  color: white;
+  font-size: 16px;
+}
+
+.content {
+  padding-top: 44px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.alt-kisim {
+  font-family: "Roboto", sans-serif;
+  background-color: #222831;
+}
+.alt-kisim .baslik {
+  color: white;
+  font-size: 15px;
+}
+.alt-kisim img {
+  height: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.alt-kisim .content {
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+.alt-kisim .content .row {
+  position: relative;
+  width: 25%;
+}
+.alt-kisim .content .row .logo {
+  float: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+.alt-kisim .content .row .logo a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.alt-kisim .content .row .logo a fon {
+  color: orange;
+}
+.alt-kisim .content .row .logo p {
+  color: white;
+  font-size: 10px;
+  position: center;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.alt-kisim .content .latest-News {
+  width: 25%;
+  display: flex;
+  float: left;
+  color: white;
+}
+.alt-kisim .content .latest-News .blog-content {
+  padding-left: 10px;
+}
+.alt-kisim .content .latest-News .blog-content a {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.alt-kisim .content .latest-News .blog-content .date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: #CCC;
+}
+.alt-kisim .content .latest-News .blog-image {
+  padding-top: 22px;
+  display: flex;
+}
+.alt-kisim .content .ınformation {
+  color: white;
+  font-size: 15px;
+  float: left;
+  width: 25%;
+}
+.alt-kisim .content .ınformation li {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 15px;
+  list-style: none;
+}
+.alt-kisim .content .ınformation .fa {
+  font-size: 13px;
+}
+.alt-kisim .content .Have-a-Questions {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  float: left;
+  width: 25%;
+}
+.alt-kisim .content .Have-a-Questions a {
+  width: 90%;
+}
+.alt-kisim .content .Have-a-Questions i {
+  width: 10%;
+}
+
+#Gri-Sayfa-Num {
+  padding-bottom: 115px;
+  padding-left: 500px;
+  padding-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+#Gri-Sayfa-Num ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#Gri-Sayfa-Num ul li {
+  float: left;
+}
+#Gri-Sayfa-Num ul li a {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  line-height: 32px;
+  margin-right: 5px;
+  border: 1px solid #EEE;
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+#Gri-Sayfa-Num ul li a i {
+  font-size: 10px;
+}
+#Gri-Sayfa-Num ul li.selected a, #Gri-Sayfa-Num ul li:hover a {
+  background: #ffd369;
+  color: #fff;
+}
+
+.blog-list {
+  width: 100%;
+  display: block;
+}
+.blog-list .single-blog {
+  width: 100%;
+  display: flex;
+}
+.blog-list .single-blog .blog-image {
+  width: 66.6%;
+  padding: 20px;
+}
+.blog-list .single-blog .blog-image img {
+  width: 100%;
+}
+.blog-list .single-blog .blog-content {
+  width: 33.3%;
+  padding: 20px;
+}
+.blog-list .single-blog .blog-content .category {
+  margin-bottom: 15px;
+}
+.blog-list .single-blog .blog-content .date {
+  margin-top: 15px;
+}
+.blog-list .single-blog .blog-content .category, .blog-list .single-blog .blog-content .date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  color: #CCC;
+  width: 100%;
+  display: block;
+}
+.blog-list .single-blog .blog-content .title {
+  color: black;
+  min-height: 75%;
+  font-size: 35px;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+}
+
+.sayfa-sonu {
+  padding-left: 300px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.sayfa-sonu p {
+  margin: 0;
+  padding-top: 300px;
+  padding-bottom: 100px;
 }
