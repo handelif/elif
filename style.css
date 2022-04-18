@@ -261,7 +261,6 @@ body {
   display: flex;
 }
 .blog-list .single-blog .blog-image {
-  width: 66.6%;
   padding: 20px;
 }
 .blog-list .single-blog .blog-image img {
