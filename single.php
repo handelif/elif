@@ -7,3 +7,4 @@
     <?php the_content(); ?>
 </div>
 <?php get_footer(); ?>
+ <!--Blog yazılarınızın devamını görüntüle linkinin açan alandır
